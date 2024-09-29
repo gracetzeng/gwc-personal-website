@@ -32,7 +32,7 @@
     background-color: #746658;
     width: default;
     padding: 1em;
-    margin-top: 40px;
+    margin-top: 50px;
 
     margin-left: 0px;
     margin-right: 0px;
@@ -94,8 +94,8 @@
     color: black;
     font-size: 20px;
     padding-bottom: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 
@@ -114,6 +114,23 @@
   .audioFile {
     border-radius:38px;
     border:8px solid #746658;
+  }
+
+  .galleryImgs {
+    max-width: 25%;
+    margin: auto;
+  }
+
+  div.gallery {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 2000px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
   }
 
 
@@ -169,7 +186,7 @@
     text-decoration: none;
     
     padding: 1%;
-    border: 1px solid
+    border: 1px solid;
   }
 
    #portJumpBarUL a:hover {
