@@ -1,14 +1,196 @@
-/* STYLE SECTIONING TAGS */
-body {
- 
+*{
+  scroll-behavior: smooth;
 }
+
+
+/* STYLE SECTIONING TAGS  E4D8CD #F1E9E0*/
+  header {
+    /*
+    background-image: url("assets/gwc flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    */
+  
+    background-color: #E4D8CD;
+
+    /*header text*/
+    color:black;
+  }
+
+  body{
+    margin: 0px;
+    background-color: #E4D8CD;
+  }
+
+  main {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  footer {
+    background-color: #746658;
+    width: default;
+    padding: 1em;
+    margin-top: 40px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
 
 /* STYLE TEXT */
+  body {
+    font-family: "Garamond", cursive;
+    font-weight: 300;
+    text-align:center;
+  }
 
-h1 {
- 
-}
+   p{
+    color: black;
+    font-size: 20px
+  }
 
-/* STYLE IMAGES */
+  h1 {
+    margin-top: 4%;
+    font-size: 45px;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 250;
+    font-style: italic;
+  }
+
+  #aboutMeText {
+    color:black;
+    font-size:28px;
+  }
+
+  .aboutMe {
+    color:black;
+    font-size:20px;
+  }
+
+  #jumpToText {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  .portTopic {
+    color: black;
+    font-size: 25px;
+  }
+
+  .portTitle {
+    color:black;
+    font-size: 22px;
+  }
+
+  .portDesc {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+
+/* STYLE IMAGES AND OTHER MEDIA */
+  img {
+    border-radius: 0px;
+    border: 12px solid #746658;
+  }
+
+  #aboutMePic {
+    padding: 0px;
+    border-radius: 15px;
+    border: 10px solid #746658;
+  }
+
+  .audioFile {
+    border-radius:38px;
+    border:8px solid #746658;
+  }
+
 
 /* STYLE NAV BAR */
+
+  /*top nav bar*/
+  #navBarUL{
+    list-style-type: none;
+    background-color: #746658;
+    overflow: hidden;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+
+  .navBarIL {
+    display: inline;
+  }
+
+  .navBarIL a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: .8em;
+  }
+
+  .navBarIL a:hover {
+    background-color: #49423c;
+  }
+
+   .navBarLeft {
+    float: left;
+  }
+
+  .navBarRight {
+    float: right;
+  }
+
+
+  /*portfolio jump down bar*/
+  #portJumpBarUL {
+    display: inline;
+    list-style-type: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 10px;
+  }
+
+  #portJumpBarUL a {
+    box-shadow: 2px 2px;
+    color:#61574c;
+    text-decoration: none;
+    
+    padding: 1%;
+    border: 1px solid
+  }
+
+   #portJumpBarUL a:hover {
+    background-color: #f8f4f2;
+  }
+        /* to reduce the space between buttons and the STEM text*/
+  #portSTEMText {
+    margin-top:-3%;
+  }
+
+
+  /* go to top button */
+  #toTop {
+    background-color:#746658;
+    padding:1.5%;
+
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+   #toTop a:hover {
+    background-color: #49423c;
+  }
